@@ -7,4 +7,8 @@ if True:
 import skeleton
 
 ## test
-skeleton.sub1.modA.hello()
+from importlib.metadata import version as md
+
+print(skeleton.__file__)
+
+print(dir(skeleton))
