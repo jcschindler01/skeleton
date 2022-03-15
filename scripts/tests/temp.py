@@ -1,5 +1,5 @@
 
 import skeleton
 
-print(skeleton.__version__)
-print(skeleton.__file__)
+print("skeleton version = %s"%(skeleton.__version__))
+
