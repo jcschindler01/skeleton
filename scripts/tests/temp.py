@@ -6,8 +6,5 @@ if True:
 ## import
 import skeleton
 
-
 ## test
-print(skeleton.__version__)
-
 skeleton.sub1.modA.hello()
