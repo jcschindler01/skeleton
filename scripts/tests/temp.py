@@ -1,4 +1,5 @@
 
 import skeleton
 
-help(skeleton)
+print(skeleton.__version__)
+print(skeleton.__file__)
