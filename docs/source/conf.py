@@ -6,8 +6,8 @@ project = 'Skeleton'
 copyright = '2022, JCS'
 author = 'jcschindler01'
 
-release = '0.1'
-version = '0.1.0'
+#release = '0.1'
+#version = '0.1.0'
 
 # -- General configuration
 
