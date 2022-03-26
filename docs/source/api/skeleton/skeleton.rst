@@ -1,0 +1,7 @@
+
+skeleton
+================================
+
+.. automodule:: skeleton
+   :members:
+
