@@ -26,6 +26,7 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
 
+   Welcome! <index>
    Tutorial <01-Tutorial/00-overview>
    API <02-API/api_skeleton>
 
