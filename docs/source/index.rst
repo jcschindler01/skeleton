@@ -4,14 +4,15 @@
    contain the root `toctree` directive.
 
 
-skeleton: A skeleton for Python packages.
+skeleton
 ================================
 
 .. automodule:: skeleton
 
 
 Getting Started
-===============
+-----------
+
 Install the package with::
 
    pip install -e .
@@ -20,18 +21,18 @@ Then, visit the tutorial to learn how to use it!
 
 
 Table of Contents
-====================
+-----------
 
 .. toctree::
    :maxdepth: 2
    :numbered:
 
-   Tutorial <01-Tutorial/overview>
+   Tutorial <01-Tutorial/00-overview>
    API <02-API/api_skeleton>
 
 
 Search
-==================
+-----------
 
 * :ref:`genindex`
 * :ref:`modindex`
