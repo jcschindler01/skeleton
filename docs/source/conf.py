@@ -34,7 +34,7 @@ extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+# templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -64,6 +64,12 @@ html_logo = '_static/logo.png'
 html_sidebars = { '**': ['globaltoc.html', 'sourcelink.html', 'searchbox.html'] }
 
 
+
+# -- AutoAPI -------------------------------------------------------------
+extensions.append('autoapi.extension')
+
+autoapi_type = 'python'
+autoapi_dirs = ['docs/source/AUTO', 'src']
 
 
 
