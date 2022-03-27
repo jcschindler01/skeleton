@@ -27,8 +27,8 @@ Table of Contents
    :maxdepth: 2
 
    Welcome! <index>
-   Tutorial <01-Tutorial/00-overview>
-   API <02-API/api_skeleton>
+   Tutorial <TUTORIAL/00-overview>
+   API <API/apidoc/modules>
 
 
 Search

@@ -65,11 +65,13 @@ html_sidebars = { '**': ['globaltoc.html', 'sourcelink.html', 'searchbox.html'] 
 
 
 
-# -- AutoAPI -------------------------------------------------------------
-extensions.append('autoapi.extension')
+# # -- AutoAPI -------------------------------------------------------------
+# # Decided didn't like AutoAPI output
 
-autoapi_type = 'python'
-autoapi_dirs = ['.', '../../src']
+# extensions.append('autoapi.extension')
+
+# autoapi_type = 'python'
+# autoapi_dirs = ['.', '../../src']
 
 
 
