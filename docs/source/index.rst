@@ -9,17 +9,25 @@ skeleton: A skeleton for Python packages.
 
 .. automodule:: skeleton
 
-Enjoy!
 
-Packages and Modules
+Getting Started
+===============
+Install the package with::
+
+   pip install -e .
+
+Then, visit the tutorial to learn how to use it!
+
+
+Table of Contents
 ====================
 
 .. toctree::
-   :caption: Packages and Modules:
-   :maxdepth: 1
+   :maxdepth: 2
+   :numbered:
 
-   api/skeleton/skeleton
-
+   Tutorial <01-Tutorial/overview>
+   API <02-API/api_skeleton>
 
 
 Search
