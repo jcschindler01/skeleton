@@ -7,8 +7,23 @@
 skeleton
 ================================
 
-.. include:: welcome
 
+Welcome!
+--------
+
+
+Hello and welcome to the skeleton package!
+
+
+
+Getting Started
+---------------
+
+Install the package with::
+
+   pip install -e .
+
+Then, visit the tutorial to learn how to use it!
 
 
 Table of Contents
@@ -17,7 +32,7 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
 
-   Welcome! <welcome
+   Welcome! <welcome>
    Tutorial <TUTORIAL/00-overview>
    API Reference <API/apidoc/modules>
 
