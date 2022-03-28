@@ -1,9 +1,11 @@
 """ This is module A.
 """
 
-def hello():
+def hello(mystring="A really cool string"):
   """
-  Just, wow.
+  Just, wow. What a great function.
   """
-  print("Hello from modA")
+  print("Hello from modA.")
+  print(mystring)
+  return mystring
   
