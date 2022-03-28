@@ -11,7 +11,7 @@ skeleton
 
 
 Getting Started
------------
+---------------
 
 Install the package with::
 
@@ -21,18 +21,17 @@ Then, visit the tutorial to learn how to use it!
 
 
 Table of Contents
------------
+-----------------
 
 .. toctree::
    :maxdepth: 2
 
-   Welcome! <index>
    Tutorial <TUTORIAL/00-overview>
    API <API/apidoc/modules>
 
 
 Search
------------
+------
 
 * :ref:`genindex`
 * :ref:`modindex`
