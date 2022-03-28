@@ -27,7 +27,7 @@ Table of Contents
    :maxdepth: 2
 
    Tutorial <TUTORIAL/00-overview>
-   API <API/apidoc/modules>
+   API Reference <API/apidoc/modules>
 
 
 Search
