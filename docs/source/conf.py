@@ -15,6 +15,7 @@ import sys
 sys.path.insert(0, os.path.abspath('../../src'))
 # print(os.path.abspath('../..'))
 
+#import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
@@ -31,6 +32,7 @@ author = 'jcschindler01'
 extensions = [
   'sphinx.ext.autodoc',
   'sphinx.ext.mathjax',
+  # 'sphinx_rtd_theme',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -54,6 +56,23 @@ html_theme = "sphinx_rtd_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+# HTML Theme Options for sphinx_rtd_theme
+html_theme_options = {
+    #'analytics_id': 'G-XXXXXXXXXX',  #  Provided by Google in your dashboard
+    #'analytics_anonymize_ip': False,
+    #'logo_only': False,
+    'display_version': False,
+    'prev_next_buttons_location': 'none',
+    #'style_external_links': False,
+    #'vcs_pageview_mode': '',
+    'style_nav_header_background': '#3ea8a8',
+    # Toc options
+    #'collapse_navigation': True,
+    #'sticky_navigation': True,
+    #'navigation_depth': 4,
+    #'includehidden': True,
+    'titles_only': True,
+}
 
 # -- Other Settings ----------------------------------------------------------
 
