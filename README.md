@@ -1,15 +1,20 @@
 # Skeleton
 
-I am using this as a test for packaging distributions. You can find it [here](https://github.com/jcschindler01/skeleton).
+This package is a skeleton for Python packages allowing:
+  - `pip` distribution and installation,
+  - sphinx/readthedocs documentation.
 
 
-Test distro [here](https://test.pypi.org/project/skeleton-JCSCHINDLER01/).
+[GitHub](https://github.com/jcschindler01/skeleton)
+
+[Docs](https://skeleton-jcschindler01.readthedocs.io/)
+
+[Test Distro](https://test.pypi.org/project/skeleton-JCSCHINDLER01/)
 
 
-Docs at https://skeleton-jcschindler01.readthedocs.io/.
-
-Recommended dev method:
-Clone from github.
-Local install using pip install -e .
-When ready to release: git tag, python -m build, upload
-Download and test release in venv.
+Dev Tips/Steps:
+  - Clone from GitHub
+  - Local install with `pip install -e .` 
+  - To release: `git tag`, `python -m build`, [upload]()
+  - To document: Set up readthedocs to auto update on push. Manually rerun apidoc-rebuild as needed.
+  - To test: Download and test in a venv.
