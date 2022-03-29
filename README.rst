@@ -1,7 +1,3 @@
-.. skeleton documentation master file, created by
-   sphinx-quickstart on Fri Mar 25 12:56:13 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 skeleton
 ================================
@@ -55,32 +51,3 @@ To Distribute:
    - `Upload <https://packaging.python.org/en/latest/tutorials/packaging-projects/#uploading-the-distribution-archives>`_ with ``python -m twine upload --repository testpypi dist/*`` in root folder.
    - To test, ``pip install`` from appropriate repo inside a venv.
 
-
-Getting Started
----------------
-
-If this were uploaded on PyPi (it's not, but you can download from TestPyPi link above), you would install the package with::
-
-   pip install skeleton
-
-Then, visit the tutorial to learn how to use it!
-
-
-Table of Contents
------------------
-
-.. toctree::
-   :maxdepth: 2
-
-   Welcome! <welcome>
-   Tutorial <TUTORIAL/00-overview>
-   API Reference <API/apidoc/modules>
-
-
-Search
-------
-
-
-* :ref:`Modules <modindex>`
-* :ref:`Index <genindex>`
-* :ref:`Search <search>`
