@@ -64,6 +64,12 @@ html_logo = '_static/logo.png'
 html_sidebars = { '**': ['globaltoc.html', 'sourcelink.html', 'searchbox.html'] }
 
 
+# # -- AutoDoc Settings -------------------------------------------------------------
+autoclass_content = 'both'
+autodoc_member_order = 'bysource'
+autodoc_docstring_signature = True
+autodoc_typehints = 'both'
+
 
 # # -- AutoAPI -------------------------------------------------------------
 # # Decided didn't like AutoAPI output
