@@ -49,5 +49,5 @@ To Distribute:
    - Clear ``dist`` folder of old versions.
    - Build with ``python -m build`` in root folder.
    - `Upload <https://packaging.python.org/en/latest/tutorials/packaging-projects/#uploading-the-distribution-archives>`_ with ``python -m twine upload --repository testpypi dist/*`` in root folder.
-   - To test, ``pip install`` from appropriate repo inside a venv.
+   - To test, ``pip install`` from appropriate repo inside a `venv <https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#creating-a-virtual-environment>`_.
 
