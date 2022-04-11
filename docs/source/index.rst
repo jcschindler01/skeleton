@@ -30,7 +30,7 @@ Utilizes:
    - `versioningit <https://versioningit.readthedocs.io/>`_ version single-sourcing in ``pyproject.toml``.
 
       - Versions are set by the git tags (or commit number if dirty).
-      - On ``python -m build`` (or ``pip install -e .``) versioningit sets correct version in project metadata based on git data.
+      - On ``python -m build`` versioningit sets correct version in project metadata based on git data.
       - On ``import skeleton`` a ``__version__`` parameter is obtained using ``importlib.metadata``.
 
    - `APIdoc <https://www.sphinx-doc.org/en/master/man/sphinx-apidoc.html>`_ to auto-generate API reference.
@@ -41,7 +41,7 @@ Utilizes:
 
 To Develop:
    - Clone from Github.
-   - Build and local install with ``pip install -e .`` in root folder.
+   - Build and local install with ``python -m build`` then ``pip install -e .`` in root folder.
    - Edit local source.
    - Access local version from anywhere with ``import skeleton`` in test scripts.
    - (Only need to rebuild if you want to update version metadata.)
